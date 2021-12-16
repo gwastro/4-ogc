@@ -23,10 +23,10 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unite
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
 ```
-@article{Nitz:2021xxx,
-    author = {Nitz, Alexander H. and Kumar, Sumit and Wang, Yi-Fan and Kastha, Shilpa and Shichao Wu and Sch\"afer, Marlin and Dhurkunde, Rahul and Capano, Collin D.},
+@article{Nitz:2021zwj,
+    author = {Nitz, Alexander H. and Kumar, Sumit and Wang, Yi-Fan and Kastha, Shilpa and Wu, Shichao and Sch\"afer, Marlin and Dhurkunde, Rahul and Capano, Collin D.},
     title = "{4-OGC: Catalog of gravitational waves from compact-binary mergers}",
-    eprint = "2112.xxxxx",
+    eprint = "2112.06878",
     archivePrefix = "arXiv",
     primaryClass = "astro-ph.HE",
     month = "12",
