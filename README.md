@@ -5,7 +5,7 @@
 <sub>2. Leibniz Universitat Hannover, D-30167 Hannover, Germany</sub>  
 <sub>3. Department of Mathematics, University of Massachusetts, Dartmouth, MA 02747, USA </sub>
 
-![](https://github.com/gwastro/4-ogc/blob/master/4OGC.png)
+![](https://raw.githubusercontent.com/gwastro/4-ogc/master/4OGC.png)
 
 ## Introduction
 
