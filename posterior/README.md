@@ -25,7 +25,7 @@ Provided parameters are:
  * `spin2_azimuthal`: The azimuthal angle of the spin of the smaller object.
  * `spin1_polar`: The polar angle of the spin of the spin of the larger object.
  * `spin2_polar`: The polar angle of the spin of the spin of the smaller object.
- * `tc`: The geocentric GPS time of the signal merger.
+ * `delta_tc`: The geocentric GPS time of the signal merger relative to the trigger GPS time.
  * `ra`: The right ascension of the signal (in radians).
  * `dec`: The declination of the signal (in radians).
  * `distance`: The lumionsity distance to the signal (in Mpc).
