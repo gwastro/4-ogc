@@ -1,2 +1,0 @@
-keep_files: [posteriorplots]
-exclude: [posteriorplots]
