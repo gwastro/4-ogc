@@ -13,6 +13,7 @@ We present the fourth Open Gravitational-wave Catalog (4-OGC) of binary neutron 
 
 ## Links
  * [Preprint Paper](https://arxiv.org/abs/2112.06878)
+ * [Posterior samples](posterior) for individual compact-binary merger observations
 
 ## License and Citation
 
