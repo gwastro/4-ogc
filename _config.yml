@@ -1,1 +1,2 @@
+exclude: [posterior_plots]
 keep_files: [posterior_plots]
