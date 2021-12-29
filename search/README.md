@@ -4,7 +4,9 @@
 Text files summarizing the 94 top candidates and 30 sub-threshold candidates
 from the paper. The first row of the file details the column information
 and data is space separated. 
-
+ 
+ * [Top 94](https://github.com/gwastro/4-ogc/blob/master/search/4OGC_top.txt)
+ * [Subthreshold 30](https://github.com/gwastro/4-ogc/blob/master/search/4OGC_sub30.txt)
 
 #### HDF format files #####
 
