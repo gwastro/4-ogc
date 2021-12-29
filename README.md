@@ -14,6 +14,7 @@ We present the fourth Open Gravitational-wave Catalog (4-OGC) of binary neutron 
 ## Links
  * [Arxiv Preprint Paper](https://arxiv.org/abs/2112.06878)
  * [Data Release Repository](https://github.com/gwastro/4-ogc)
+ * [Search Results](https://github.com/gwastro/4-ogc/blob/master/search) including the catalog of subthreshold candidates and related summary files.
  * [Posterior samples data release](https://github.com/gwastro/4-ogc/tree/master/posterior) for individual compact-binary merger observations
    * [Plots](https://gwcatalog.org/posterior_plots) of the parameter estimate for each merger
 
