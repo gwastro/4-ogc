@@ -1,3 +1,11 @@
+### Text file PE summary ###
+The text file PETable.txt includes the summary information of the parameter estimation presented in the published paper. Additional
+data is in the full hdf files which can be read as below. 
+
+ * [PE Summary ASCII](https://github.com/gwastro/4-ogc/blob/master/posterior/PEtable.txt)
+
+### Posterior Files in HDF format ###
+
 To read in the posterior files, use the python environment with h5py. For example,
 
 ```
