@@ -14,10 +14,10 @@ To read in the posterior files, use the python environment with h5py. For exampl
 >>> fp.keys()
 <KeysViewHDF5 ['samples']>
 >>> fp['samples'].keys()
-<KeysViewHDF5 ['chi_eff', 'chi_p', 'dec', 'delta_tc', 'distance', 'inclination', 'loglikelihood', 'q', 'ra', 'redshift', 'spin1_a', 'spin1_azimuthal', 'spin1_polar', 'spin2_a', 'spin2_azimuthal', 'spin2_polar', 'srcmass1', 'srcmass2', 'srcmchirp']
+<KeysViewHDF5 ['chi_eff', 'chi_p', 'coa_phase', 'comoving_volume', 'dec', 'delta_tc', 'distance', 'inclination', 'loglikelihood', 'q', 'ra', 'redshift', 'spin1_a', 'spin1_azimuthal', 'spin1_polar', 'spin2_a', 'spin2_azimuthal', 'spin2_polar', 'srcmass1', 'srcmass2', 'srcmchirp']>
 >>> fp['samples']['chi_eff'][()]
-array([ 0.09705732,  0.14272065,  0.04367346, ..., -0.10842732,
-       -0.11309499, -0.15468565])
+array([-0.15618938, -0.21925095,  0.03480148, ...,  0.14123062,
+       -0.04531827, -0.1313231 ])
 ```
 
 Provided parameters are:
@@ -42,3 +42,4 @@ Provided parameters are:
    respect to the line of sight, in radians. An inclination of 0 (pi)
    corresponds to a face-on (face-away) orientation.
  * `loglikelihood`: The natural log of the likelihood of each sample.
+ * `coa_phase`: The coalescence phase of the signal merger. There is no coa_phase for the binary neutron star events because it has been analytically marginalized over
