@@ -33,13 +33,16 @@ Provided parameters are:
  * `spin2_azimuthal`: The azimuthal angle of the spin of the smaller object.
  * `spin1_polar`: The polar angle of the spin of the spin of the larger object.
  * `spin2_polar`: The polar angle of the spin of the spin of the smaller object.
+ * `lambda1`: The tidal deformability of the primary component (applicable to the binary neutron star events).
+ * `lambda2`: The tidal deformability of the secondary component (applicable to the binary neutron star and the neutron star-black hole events).
  * `delta_tc`: The geocentric GPS time of the signal merger relative to the trigger GPS time.
  * `ra`: The right ascension of the signal (in radians).
  * `dec`: The declination of the signal (in radians).
- * `distance`: The lumionsity distance to the signal (in Mpc).
+ * `distance`: The luminosity distance to the signal (in Mpc).
+ * `comoving_volume`: The comoving volume correspoinding to the luminosity distance of the signal (in Mpc^3).
  * `redshift`: The cosmological redshift of the signal.
  * `inclination`: The inclination of the binary's orbital angular momentum with
    respect to the line of sight, in radians. An inclination of 0 (pi)
    corresponds to a face-on (face-away) orientation.
  * `loglikelihood`: The natural log of the likelihood of each sample.
- * `coa_phase`: The coalescence phase of the signal merger. There is no coa_phase for the binary neutron star events because it has been analytically marginalized over
+ * `coa_phase`: The coalescence phase of the signal merger. There is no coa_phase for the binary neutron star events because it has been analytically marginalized over.
